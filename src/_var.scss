@@ -1,0 +1,26 @@
+
+@mixin icon($url, $width, $height) {
+  width: $width;
+  height: $height;
+  background: url($url) no-repeat center;
+  background-size: contain;
+}
+
+@mixin ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@mixin scrollbar {
+  &::-webkit-scrollbar {
+    width: 3px;
+  }
+  &::-webkit-scrollbar-track {
+    background: #f7f8fa;
+  }
+  &::-webkit-scrollbar-thumb {
+    border-radius: 2px;
+    background: #c0c0c0;
+  }
+}

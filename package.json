@@ -1,0 +1,46 @@
+{
+  "name": "create-data-vite-app",
+  "private": true,
+  "version": "0.8.6",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "vite build",
+    "preview": "vite preview --host",
+    "lint": "eslint --ext .js src/"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "ahooks": "^3.1.9",
+    "axios": "^0.25.0",
+    "classnames": "^2.3.1",
+    "dayjs": "^1.10.7",
+    "immer": "^10.0.1",
+    "react": "^18.2.0",
+    "react-color": "^2.19.3",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.2.1",
+    "swiper": "^9.3.0",
+    "zustand": "^4.3.8"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.9",
+    "@vitejs/plugin-basic-ssl": "^1.0.1",
+    "@vitejs/plugin-react": "^3.0.0",
+    "eslint": "^8.33.0",
+    "eslint-plugin-react": "^7.32.2",
+    "postcss-px-to-viewport": "^1.1.1",
+    "postcss-px-to-viewport-8-plugin": "^1.2.3",
+    "prettier": "^2.8.3",
+    "rollup-plugin-visualizer": "^5.9.0",
+    "sass": "^1.58.0",
+    "vite": "^4.0.0",
+    "vite-plugin-inspect": "^0.7.15"
+  },
+  "sourceRepository": "gitlab.sys.wanmei.com/html5/create-data-vite-app.git",
+  "deployGit": "gitlab.sys.wanmei.com/html5/deploy-data-vite-app.git",
+  "deployGitName": "deploy-data-vite-app",
+  "deployDevBranch": "dev"
+}
